@@ -68,32 +68,32 @@ const partners = [
   {
     id: 1,
     name: "Unity Technologies",
-    logo: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+    logo: "https://metagames.ltd/wp-content/uploads/2024/11/ironsource.png"
   },
   {
     id: 2,
     name: "Epic Games",
-    logo: "https://images.unsplash.com/photo-1511512578047-dfb367046420?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+    logo: "https://metagames.ltd/wp-content/uploads/2024/11/Mintegral.png"
   },
   {
     id: 3,
     name: "Steam",
-    logo: "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+    logo: "	https://metagames.ltd/wp-content/uploads/2024/11/youtube.png"
   },
   {
     id: 4,
     name: "PlayStation",
-    logo: "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+    logo: "	https://metagames.ltd/wp-content/uploads/2024/11/Google_AdMob_logo.svg_-2-300x69.png"
   },
   {
     id: 5,
     name: "Nintendo",
-    logo: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+    logo: "https://metagames.ltd/wp-content/uploads/2024/11/unity.png"
   },
   {
     id: 6,
     name: "Xbox",
-    logo: "https://images.unsplash.com/photo-1552820728-8b83bb6b773f?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+    logo: "https://metagames.ltd/wp-content/uploads/2024/11/Payoneer.png"
   }
 ];
 
@@ -168,7 +168,7 @@ const games = [
     rating: 4.9,
     downloads: "5M+",
     category: "Puzzle",
-    featured: false
+    featured: true
   },
   {
     id: 4,
@@ -691,7 +691,7 @@ const HomePage = () => (
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
           {partners.map((partner) => (
             <div key={partner.id} className="group">
-              <div className="bg-gradient-to-b from-gray-800 to-gray-900 p-6 rounded-3xl border border-purple-500/20 hover:border-purple-400/40 transition-all duration-300 hover:scale-105 grayscale hover:grayscale-0">
+              <div className="bg-gradient-to-b from-gray-100 to-gray-200 p-6 rounded-3xl border border-purple-500/20 hover:border-purple-400/40 transition-all duration-300 hover:scale-105 grayscale hover:grayscale-0">
                 <img
                   src={partner.logo}
                   alt={partner.name}
