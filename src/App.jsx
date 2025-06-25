@@ -709,7 +709,7 @@ const HomePage = () => (
 const AboutPage = () => (
   <div className="pt-20">
     {/* Hero Section */}
-    <section className="py-20 bg-gradient-to-r from-purple-900 to-pink-900 text-white">
+    <section className="py-20 bg-gradient-to-r bg-[url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')] bg-cover bg-center from-purple-900 to-pink-900 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h1 className="text-5xl md:text-6xl font-bold mb-8">About MetaGame Limited</h1>
         <p className="text-xl text-purple-100 max-w-4xl mx-auto leading-relaxed">
@@ -873,7 +873,7 @@ const GamesPage = () => {
   return (
     <div className="pt-20">
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-r from-purple-900 to-pink-900 text-white">
+      <section className="py-20 bg-gradient-to-r bg-[url('https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')] bg-cover bg-center from-purple-900 to-pink-900 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-8">Our Games Portfolio</h1>
           <p className="text-xl text-purple-100 max-w-4xl mx-auto leading-relaxed">
