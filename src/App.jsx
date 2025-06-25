@@ -1272,16 +1272,24 @@ const ContactPage = () => {
               <div className="bg-gradient-to-b from-gray-800 to-gray-900 rounded-3xl overflow-hidden shadow-2xl border border-purple-500/20">
                 <div className="p-6 border-b border-purple-500/20">
                   <h3 className="text-xl font-bold text-white flex items-center space-x-2">
-                    <MapIcon className="h-6 w-6 text-purple-400" />
+                    <MapPin className="h-6 w-6 text-purple-400" />
                     <span>Our Location</span>
                   </h3>
                 </div>
-                <div className="h-64 bg-gray-700 flex items-center justify-center">
-                  <div className="text-center text-gray-400">
-                    <MapIcon className="h-12 w-12 mx-auto mb-4 text-purple-400" />
-                    <p className="text-white font-semibold">Interactive Map</p>
-                    <p className="text-sm">New World Tower 1, Central, Hong Kong</p>
-                  </div>
+                <div className="h-80 relative">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3692.0739737302896!2d114.15562631496598!3d22.28103428533929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3404005d7a9a9d1f%3A0x8b8c7a7e8a9a9a9a!2s18%20Queen's%20Rd%20Central%2C%20Central%2C%20Hong%20Kong!5e0!3m2!1sen!2s!4v1641234567890!5m2!1sen!2s"
+                    width="100%"
+                    height="100%"
+                    style={{ border: 0, filter: 'hue-rotate(260deg) saturate(0.7) brightness(0.8)' }}
+                    allowFullScreen=""
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    title="MetaGame Limited Office Location"
+                    className="rounded-b-3xl"
+                  ></iframe>
+                  {/* Overlay for better theming */}
+                  <div className="absolute inset-0 bg-purple-900/20 pointer-events-none rounded-b-3xl"></div>
                 </div>
               </div>
             </div>
