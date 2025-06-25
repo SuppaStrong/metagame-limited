@@ -110,7 +110,7 @@ const teamMembers = [
     id: 2,
     name: "Sarah Johnson",
     role: "Creative Director",
-    image: "https://images.unsplash.com/photo-1494790108755-2616b612b217?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+    image: "https://plus.unsplash.com/premium_photo-1690407617542-2f210cf20d7e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
     bio: "Award-winning designer behind our most popular titles"
   },
   {
