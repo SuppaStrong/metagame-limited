@@ -847,8 +847,8 @@ const AboutPage = () => (
           
           <div className="text-lg text-gray-300 space-y-2">
             <p className="font-semibold text-white">MetaGame Limited</p>
-            <p>Unit 506, 5/F, New World Tower 1</p>
-            <p>18 Queen's Road Central, Central</p>
+            <p>Trust Company Complex, Ajeltake Road</p>
+            <p>1Ajeltake Island, Majuro</p>
             <p>Hong Kong</p>
           </div>
         </div>
@@ -1217,9 +1217,10 @@ const ContactPage = () => {
                     <div>
                       <p className="font-semibold text-white text-lg">Address</p>
                       <p className="text-gray-300 mt-2 leading-relaxed">
-                        Unit 506, 5/F, New World Tower 1<br />
-                        18 Queen's Road Central, Central<br />
-                        Hong Kong
+                        Trust Company Complex, Ajeltake Road<br />
+                        1Ajeltake Island, Majuro<br />
+                        Republic
+of the Marshall Islands MH 96960
                       </p>
                     </div>
                   </div>
@@ -1385,9 +1386,9 @@ const MetaGameWebsite = () => {
             <div>
               <h4 className="font-bold mb-6 text-lg">Contact</h4>
               <div className="space-y-3 text-gray-300">
-                <p>Unit 506, 5/F, New World Tower 1</p>
+                <p>Trust Company Complex, Ajeltake Road</p>
                 <p>18 Queen's Road Central</p>
-                <p>Central, Hong Kong</p>
+                <p>Hong Kong</p>
                 <p className="mt-4 text-purple-400">contact@metagame-limited.com</p>
               </div>
             </div>
