@@ -1387,8 +1387,9 @@ const MetaGameWebsite = () => {
               <h4 className="font-bold mb-6 text-lg">Contact</h4>
               <div className="space-y-3 text-gray-300">
                 <p>Trust Company Complex, Ajeltake Road</p>
-                <p>18 Queen's Road Central</p>
-                <p>Hong Kong</p>
+                <p>Ajeltake Island, Majuro</p>
+                <p>Republic
+of the Marshall Islands MH 96960</p>
                 <p className="mt-4 text-purple-400">contact@metagame-limited.com</p>
               </div>
             </div>
